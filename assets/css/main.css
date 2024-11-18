@@ -13,7 +13,7 @@
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #2b180d; /* Default color used for the majority of the text content across the entire website */
     --heading-color: #1b2f45; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #56b8e6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --accent-color: #f2aa4cff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,7 +30,7 @@
     --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #56b8e6; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-hover-color: #f2aa4cff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -171,7 +171,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-    --background-color: rgba(23, 40, 59, 0.9);
+    --background-color: rgb(0 0 0 / 90%);
 }
 
 /*--------------------------------------------------------------
@@ -420,7 +420,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
     color: var(--default-color);
-    background-color: #cce6ef;
+    background-color: #efeacc;
     font-size: 14px;
     position: relative;
 }
@@ -741,9 +741,8 @@ section,
         width: 44%;
         background-image: linear-gradient(
                 180deg,
-                color-mix(in srgb, var(--background-color), transparent 15%),
-                color-mix(in srgb, var(--background-color), transparent 15%)
-                    100%
+                color-mix(in srgb, #000000, transparent 15%),
+                color-mix(in srgb, #000000, transparent 15%) 100%
             ),
             linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
         top: 0;
@@ -2497,12 +2496,12 @@ section,
     display: none;
 }
 header i {
-    color: #56b8e6;
+    color: #f2aa4cff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #56b8e6;
+    color: #f2aa4cff;
     font-weight: 500;
     text-align: center;
 }
@@ -2510,7 +2509,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #56b8e6;
+    color: #f2aa4cff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -2522,10 +2521,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #56b8e6;
+    border: 2px solid #f2aa4cff;
     color: #fff;
     padding: 8px 0;
-    background: #56b8e6;
+    background: #f2aa4cff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -2534,14 +2533,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #56b8e6;
+    color: #f2aa4cff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #56b8e6;
+    color: #f2aa4cff;
 }
 #declineBtn:hover {
-    background-color: #56b8e6;
+    background-color: #f2aa4cff;
     color: #fff;
 }
 /* Footer Style */
