@@ -1,1 +1,1 @@
-# SynergyShift-management-consulting-website-SP-EN-II
+[DEMO](https://panasiuknazar.github.io/StrategicMindsPros-management-consulting-website-SP-EN-II/)
